@@ -11,5 +11,8 @@ distanciaLDOS=[22 45 66 88 111 157 188 219 247];
 
 figure (1)
 plot(distanciaLOS,LOS,'r--o')
+title('Graficá linea de vista')
+
 figure (2)
 plot(distanciaLDOS,LDOS,'r--*')
+title('Graficá linea de vista con edificios')
